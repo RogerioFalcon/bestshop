@@ -1,0 +1,1 @@
+<?php bestshop_content_detail_check() ?>

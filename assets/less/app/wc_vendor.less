@@ -1,0 +1,190 @@
+.clearfix{
+	overflow: inherit;
+}
+.wc-vendor-page{
+	&.vendor_dashboard{
+		.vendor-dashboard-wrapper{
+			center{
+				p{
+					background: #111;
+					margin: 0;
+					border: 0;
+					> a{
+						display: inline-block;
+						padding: 15px 25px;
+						color: #fff;
+						position: relative;
+						&:hover{
+							color: @color;
+						}
+						&:after{
+							content: '';
+							background: #fff;
+							display: inline-block;
+							top: 18px;
+							height: 10px;
+							width: 1px;
+							position: absolute;
+							right: 0;						
+						}
+						&:last-child{
+							&:after{
+								display: none;
+							}
+						}
+					}
+				}
+			}
+			hr{
+				border-color: transparent;
+			}			
+		}
+	}
+	table{
+		border: 1px solid #ddd;
+		thead>tr>th{
+			border-width: 1px;
+			font-weight: bold;
+			text-transform: uppercase;
+			color: #222;
+		}	
+		th, td{
+			padding: 10px;
+		}
+	}
+	.form-row{
+		overflow: hidden;
+		input[type="checkbox"]{
+			float: left;
+		}
+		label{
+			overflow: hidden;
+			margin-top: 2px;
+			padding-left: 5px;
+		}
+	}
+	.entry-content h2{
+		color: #222;
+		font-size: 24px;
+		text-transform: uppercase;
+		margin-bottom: 20px;
+		font-weight: 700;
+	}
+	.pv_shop_description{
+		margin-top: 20px;
+		border-bottom: 1px solid #eee;
+		padding-bottom: 25px;
+		p{
+			margin: 0;
+			line-height: 20px;
+		}
+	}
+	&.shop_settings{
+		.entry-content{
+			margin-bottom: 40px;
+			.pv_paypal_container, .pv_shop_name_container{
+				b{
+					color: #222;
+				}
+				input{
+					margin-top: 10px;
+					border-radius: 0;
+					padding: 7px 10px;
+				}
+			}
+			#pv_seller_info_container, #pv_shop_description_container{
+				margin-bottom: 30px;
+				> p{
+					margin-bottom: 25px;
+					b{
+						color: #222;
+					}
+				}
+				div.mce-panel{
+					border: 1px solid #eee;
+				}
+			}
+		}
+	}
+	.wc-soldby-start{
+		padding: 0;
+		margin-bottom: 30px;
+		text-align: start;
+		small{
+			margin-top: 10px;
+			font-size: 14px;
+			display: block;
+			span{
+				font-weight: normal;
+			}
+			a{
+				color: @color;
+				&:hover{
+					color: #222;
+				}
+			}
+		}
+		br{
+			display: none;
+		}
+	}
+	.wcv_vendorslist{
+		margin: 0 -15px;
+		overflow: hidden;
+		> div{
+			padding: 0 15px;
+			margin: 0 0 30px !important;
+			float: left;
+			width: 25%;	
+			.pull-left{
+				float: none;
+			}
+			a.button{
+				text-transform: uppercase;				
+			}
+		}
+	}
+	&.wc-vendor-listing{
+		.sidebar{
+			margin-top: 40px;
+		}
+		.bestshop_breadcrumbs{
+			margin-top: 40px;
+			.breadcrumb{
+				background: #fff; padding: 10px;
+			}
+		}
+	}
+	.meta-location{
+		bottom: 40px;
+	}
+}
+
+@media (max-width: 767px ){
+	.wc-vendor-page{
+		.wcv_vendorslist > div{
+			width: 50%;
+		}
+		.vendor-dashboard-wrapper{
+			overflow-x: auto;
+		}
+		table{
+			width: 700px;
+		}
+	}
+}
+
+@media (max-width: 480px) {
+	.wc-vendor-page{
+		.wcv_vendorslist > div{
+			width: 100%;
+		}
+		&.vendor_dashboard .vendor-dashboard-wrapper center p > a{
+			display: block;
+			border-bottom: 1px solid #fff;
+			&:after{
+				display: none;
+			}
+		}
+	}
+}

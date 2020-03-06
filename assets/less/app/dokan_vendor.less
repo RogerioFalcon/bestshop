@@ -1,0 +1,183 @@
+/*Doakan plugin */
+select.dokan-form-control{
+	max-width: 200px;
+}
+table.dokan-table{
+	border: 1px solid #ddd;
+}
+.dokan-dashboard .dokan-dashboard-wrap{
+	max-width: 1170px;
+    margin: 30px auto;
+}
+.dokan-store{
+	.header{
+		margin-bottom: 40px;
+	}
+	#sidebar{
+		width: 25%; float: left; margin-right: 3%; margin-bottom: 20px;
+		.rtl &{
+			float: right; margin-right: 0; margin-left: 3%;
+		}
+		> ul{
+			background: #fff;
+			margin: 0;
+			list-style: none;
+			> li{
+				padding: 0 0 30px;
+				border-top: 2px solid @color;
+				.searchform{
+					padding: 20px 15px;
+					input{
+						padding: 7px 10px;
+					}
+				}
+				h2{
+					font-size: 16px;
+					text-transform: uppercase;
+					padding: 10px 15px;
+					border-bottom: 1px solid #eee;
+				}
+				ul{
+					list-style: none;
+					margin: 0;
+					> li{
+						padding: 7px 15px;
+					}
+				}
+			}
+		}
+	}
+	.dokan-store-sidebar{
+		.widget{
+			margin-bottom: 30px;
+		}
+	}
+	.dokan-store-sidebar h3.widget-title{
+		 font-size: 16px;
+		 text-transform: uppercase;
+		 border-bottom: 1px solid #eee;
+		 margin-bottom: 20px;
+		 padding-bottom: 10px;
+		 font-weight: 600;
+		 color: #222;
+	}
+	.products-loop > li{
+		margin-bottom: 30px;
+	}
+	.dokan-widget-area .widget{
+		list-style: none;
+		background: #fff;
+		border-radius: 3px;
+		border-top: 2px solid @color;
+		.widget-title, .widgettitle{
+			font-size: 16px;
+			text-transform: uppercase;
+			margin-bottom: 20px;
+			padding: 10px 5px;
+			border-bottom: 1px solid #eee;
+		}
+		> div, form, .dokan-bestselling-product-widget{
+			padding: 0 10px 15px;
+		}
+		#cat-drop-stack ul{
+			list-style: none;
+			> li{
+				> a{
+					display: block;
+					padding: 10px 0;
+				}				
+			}
+		}
+		.dokan-bestselling-product-widget{
+			> li{
+				margin: 0 0 15px;
+				padding: 0;
+				ins{
+					text-decoration: none;
+					color: @color;
+				}
+			}
+		}
+	}
+}
+.dokan-single-store .profile-frame .profile-info-box .profile-info-summery-wrapper .profile-info-summery .profile-info-head .profile-img.profile-img-circle img{
+	float: none;
+	display: inline-block;
+	vertical-align: top;
+	max-width: 100%;
+}
+#dokan-content{
+	margin-bottom: 30px;
+}
+.dokan-single-store{
+	ul{
+		list-style: none;
+	}
+	.item-description{
+		display: none;
+	}
+}
+
+.add_note .modal-dialog{
+	positon: static;
+}
+.modal-dialog{
+	position: static;
+}
+#add-shipping-tracking-form select{
+	margin-bottom: 10px;
+}
+
+@media( min-width: 1900px ){
+	.dokan-store.wide-1650 .content-area{
+		max-width: 1680px; padding:0 15px;
+	}
+}
+
+@media ( min-width: 1200px ){
+	.dokan-store{
+		.content-area{
+			max-width: 1170px;
+			margin: 0 auto;
+		}
+	}
+}
+
+@media ( max-width: 1199px ) and ( min-width: 992px ){
+	.dokan-store{
+		.content-area{
+			max-width: 960px;
+			margin: 0 auto;
+		}
+	}
+}
+
+@media ( max-width: 991px ){
+	.dokan-store{
+		.content-area{
+			max-width: 100%;
+			padding: 0 10px;
+		}
+	}
+}
+
+@media ( max-width: 767px ){
+	.dokan-store{
+		.content-area{
+			display: flex;
+			display: -webkit-flex;
+			flex-direction: column;
+			.dokan-store-sidebar{
+				width: 100%;
+				float: none;
+				order: 2;
+				margin: 0 !important;
+			}
+			.dokan-single-store{
+				float: none;
+				width: 100%;
+				margin-bottom: 30px;
+			}
+		}
+	}
+}

@@ -1,0 +1,82 @@
+/*
+Theme Name:         Bestshop
+Theme URI:          http://demo.wpthemego.com/themes/sw_bestshop/
+Description:        Bestshop - Multi-Vendor MarketPlace WordPress Theme
+Author:             wpthemego
+Author URI:         http://www.wpthemego.com/
+Version:            1.0.1
+License:            GNU General Public License v2 or later
+
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: rtl-language-support, sticky-post, two-columns
+Text Domain: bestshop
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+.wp-caption {
+	margin-bottom: 1.75em;
+	max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin: 0;
+}
+
+.wp-caption .wp-caption-text {
+	color: #686868;
+	font-size: 13px;
+	font-style: italic;
+	line-height: 1.6153846154;
+	padding-top: 0.5384615385em;
+}
+
+.bypostauthor > article .fn:after {
+	content: "\f304";
+	left: 3px;
+	position: relative;
+	top: 5px;
+}
+
+.gallery-caption {
+	color: #686868;
+	display: block;
+	font-size: 13px;
+	font-style: italic;
+	line-height: 1.6153846154;
+	padding-top: 0.5384615385em;
+}
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+	background-color: #eee;
+	clip: auto !important;
+	clip-path: none;
+	color: #444;
+	display: block;
+	font-size: 1em;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+	/* Above WP toolbar. */
+}

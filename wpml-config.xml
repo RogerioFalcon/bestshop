@@ -1,0 +1,19 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">portfolio</custom-type>
+    <custom-type translate="1">team</custom-type>
+	<custom-type translate="1">testimonial</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1">portfolio_cat</taxonomy>
+    <taxonomy translate="1">portfolio_tag</taxonomy>
+    <taxonomy translate="1">product_brand</taxonomy>
+  </taxonomies>
+  <admin-texts>
+    <key name="bestshop_theme">
+      <key name="mobile_content"/>
+      <key name="footer_style"/>
+      <key name="footer_copyright"/>
+    </key>
+  </admin-texts>
+</wpml-config>

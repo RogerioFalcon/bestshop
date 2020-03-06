@@ -1,0 +1,2327 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-08-29 11:06+0700\n"
+"PO-Revision-Date: 2016-05-12 11:33+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;esc_html__;esc_html_e;esc_attr__;esc_attr_e;_n:1,2;"
+"_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: css\n"
+"X-Poedit-SearchPathExcluded-2: fonts\n"
+"X-Poedit-SearchPathExcluded-3: js\n"
+
+#: 404.php:11 templates/no-results.php:6
+msgid "404"
+msgstr ""
+
+#: 404.php:14
+msgid "Oops, Sorry We Can’t Find That Page"
+msgstr ""
+
+#: 404.php:15
+msgid "Either something went wrong of the page doesn't exist anymore."
+msgstr ""
+
+#: 404.php:18
+msgid "Back To Home"
+msgstr ""
+
+#: lib/activation.php:45 lib/activation.php:46
+msgid "Theme Activation"
+msgstr ""
+
+#: lib/activation.php:78
+#, php-format
+msgid "%s Theme Activation"
+msgstr ""
+
+#: lib/activation.php:79
+msgid "Need help? Please follow this url"
+msgstr ""
+
+#: lib/activation.php:79
+msgid "Help"
+msgstr ""
+
+#: lib/activation.php:94
+msgid "Enter Your Purchase Code"
+msgstr ""
+
+#: lib/activation.php:115
+msgid "Your Purchase Code are invalid, please fill correct code to action theme"
+msgstr ""
+
+#: lib/activation.php:124
+msgid ""
+"Your theme is not active now, please fill your purchase code to active your "
+"theme!"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:393 lib/class-tgm-plugin-activation.php:921
+#: lib/class-tgm-plugin-activation.php:2627
+#: lib/class-tgm-plugin-activation.php:3674
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:394
+#: lib/class-tgm-plugin-activation.php:3253
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:395
+#: lib/class-tgm-plugin-activation.php:3046
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. Please "
+"update the plugin."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:610
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:611
+msgid "Update Required"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:728
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:1028
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug and "
+"renaming did not work."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:1028
+#: lib/class-tgm-plugin-activation.php:1031
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:1031
+msgid ""
+"The remote plugin package consists of more than one file, but the files are not "
+"packaged in a folder."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2076
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2367
+msgid "Required"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2370
+msgid "Recommended"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2386
+msgid "WordPress Repository"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2389
+msgid "External Source"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2392
+msgid "Pre-Packaged"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2409
+msgid "Not Installed"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2413
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2415
+msgid "Active"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2421
+msgid "Required Update not Available"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2424
+msgid "Requires Update"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2427
+msgid "Update recommended"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2436
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2486
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:2490
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:2494
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:2576
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2584
+msgid "Installed version:"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2592
+msgid "Minimum required version:"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2604
+msgid "Available version:"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2627
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2641
+msgid "Plugin"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2642
+msgid "Source"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2643
+msgid "Type"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2647
+msgid "Version"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2648
+msgid "Status"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2697
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2702
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2708
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2778
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2811
+msgid "Install"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2817
+msgid "Update"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2820
+msgid "Activate"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2851
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2853
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2894
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2896
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3002
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3028
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3252
+msgid "Plugin activation failed."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3592
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3595
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3601
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3603
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3604
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3606
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3609
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3611
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3612
+msgid "All installations have been completed."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3614
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/classes.php:211
+msgid "Override by Theme"
+msgstr ""
+
+#: lib/classes.php:220
+msgid "Default Template"
+msgstr ""
+
+#: lib/classes.php:263 lib/classes.php:350 templates/header-style2.php:12
+#: templates/header-style3.php:12 templates/header-style4.php:12
+#: templates/header-style5.php:12 widgets/sw_top/searchcate.php:29
+msgid "All Categories"
+msgstr ""
+
+#: lib/classes.php:425 widgets/woocommerce/widget-product-categories.php:44
+msgid "Title"
+msgstr ""
+
+#: lib/classes.php:433
+msgid "Template"
+msgstr ""
+
+#: lib/cleanup.php:164
+msgid "Readmore"
+msgstr ""
+
+#: lib/cleanup.php:268
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: lib/defines.php:29
+msgid "General"
+msgstr ""
+
+#: lib/defines.php:30
+msgid ""
+"<p class=\"description\">The theme allows to build your own styles right out of "
+"the backend without any coding knowledge. Upload new logo and favicon or get "
+"their URL.</p>"
+msgstr ""
+
+#: lib/defines.php:40
+msgid "Logo Image"
+msgstr ""
+
+#: lib/defines.php:41
+msgid "Use the Upload button to upload the new logo and get URL of the logo"
+msgstr ""
+
+#: lib/defines.php:48
+msgid "Favicon"
+msgstr ""
+
+#: lib/defines.php:49
+msgid "Use the Upload button to upload the custom favicon"
+msgstr ""
+
+#: lib/defines.php:56
+msgid "Select Taxonomy"
+msgstr ""
+
+#: lib/defines.php:57
+msgid "Select taxonomy to show custom term metabox"
+msgstr ""
+
+#: lib/defines.php:63
+msgid "Title Length Of Item Listing Page"
+msgstr ""
+
+#: lib/defines.php:64
+msgid "Choose title length if you want to trim word, leave 0 to not trim word"
+msgstr ""
+
+#: lib/defines.php:71
+msgid "404 Page Content"
+msgstr ""
+
+#: lib/defines.php:72
+msgid "Select page 404 content"
+msgstr ""
+
+#: lib/defines.php:79
+msgid "Schemes"
+msgstr ""
+
+#: lib/defines.php:80
+msgid ""
+"<p class=\"description\">Custom color scheme for theme. Unlimited color that "
+"you can choose.</p>"
+msgstr ""
+
+#: lib/defines.php:89
+msgid "Color Scheme"
+msgstr ""
+
+#: lib/defines.php:90
+msgid "Select one of 2 predefined schemes"
+msgstr ""
+
+#: lib/defines.php:104
+msgid "Enable Custom Color"
+msgstr ""
+
+#: lib/defines.php:106
+msgid ""
+"Check this field to enable custom color and when you update your theme, custom "
+"color will not lose."
+msgstr ""
+
+#: lib/defines.php:113
+msgid "Developer Mode"
+msgstr ""
+
+#: lib/defines.php:115
+msgid "Turn on/off compile less to css and custom color"
+msgstr ""
+
+#: lib/defines.php:123
+msgid "Color"
+msgstr ""
+
+#: lib/defines.php:124
+msgid "Select main custom color."
+msgstr ""
+
+#: lib/defines.php:132
+msgid "Layout"
+msgstr ""
+
+#: lib/defines.php:133
+msgid ""
+"<p class=\"description\">WpThemeGo Framework comes with a layout setting that "
+"allows you to build any number of stunning layouts and apply theme to your "
+"entries.</p>"
+msgstr ""
+
+#: lib/defines.php:142
+msgid "Box Layout"
+msgstr ""
+
+#: lib/defines.php:143
+msgid "Select Layout Box or Wide, Sidebar"
+msgstr ""
+
+#: lib/defines.php:145
+msgid "Wide"
+msgstr ""
+
+#: lib/defines.php:146
+msgid "Wide 1600"
+msgstr ""
+
+#: lib/defines.php:147
+msgid "Boxed"
+msgstr ""
+
+#: lib/defines.php:148
+msgid "Sidebar"
+msgstr ""
+
+#: lib/defines.php:156
+msgid "Background Box Image"
+msgstr ""
+
+#: lib/defines.php:163
+msgid "Left Sidebar Expand"
+msgstr ""
+
+#: lib/defines.php:178
+msgid "Select width of left sidebar."
+msgstr ""
+
+#: lib/defines.php:184
+msgid "Right Sidebar Expand"
+msgstr ""
+
+#: lib/defines.php:199
+msgid "Select width of right sidebar medium desktop."
+msgstr ""
+
+#: lib/defines.php:204
+msgid "Left Sidebar Medium Desktop Expand"
+msgstr ""
+
+#: lib/defines.php:219
+msgid "Select width of left sidebar medium desktop."
+msgstr ""
+
+#: lib/defines.php:224
+msgid "Right Sidebar Medium Desktop Expand"
+msgstr ""
+
+#: lib/defines.php:239
+msgid "Select width of right sidebar."
+msgstr ""
+
+#: lib/defines.php:244
+msgid "Left Sidebar Tablet Expand"
+msgstr ""
+
+#: lib/defines.php:259
+msgid "Select width of left sidebar tablet."
+msgstr ""
+
+#: lib/defines.php:264
+msgid "Right Sidebar Tablet Expand"
+msgstr ""
+
+#: lib/defines.php:279
+msgid "Select width of right sidebar tablet."
+msgstr ""
+
+#: lib/defines.php:286
+msgid "Header & Footer"
+msgstr ""
+
+#: lib/defines.php:287
+msgid ""
+"<p class=\"description\">WpThemeGo Framework comes with a header and footer "
+"setting that allows you to build style header.</p>"
+msgstr ""
+
+#: lib/defines.php:296
+msgid "Header Style"
+msgstr ""
+
+#: lib/defines.php:297
+msgid "Select Header style"
+msgstr ""
+
+#: lib/defines.php:299
+msgid "Header Style 1"
+msgstr ""
+
+#: lib/defines.php:300
+msgid "Header Style 2"
+msgstr ""
+
+#: lib/defines.php:301
+msgid "Header Style 3"
+msgstr ""
+
+#: lib/defines.php:302
+msgid "Header Style 4"
+msgstr ""
+
+#: lib/defines.php:303
+msgid "Header Style 5"
+msgstr ""
+
+#: lib/defines.php:310
+msgid "Disable Search"
+msgstr ""
+
+#: lib/defines.php:312
+msgid "Check this to disable search on header"
+msgstr ""
+
+#: lib/defines.php:319
+msgid "Disable Cart"
+msgstr ""
+
+#: lib/defines.php:321
+msgid "Check this to disable cart on header"
+msgstr ""
+
+#: lib/defines.php:329
+msgid "Footer Style"
+msgstr ""
+
+#: lib/defines.php:330
+msgid "Select Footer style"
+msgstr ""
+
+#: lib/defines.php:337
+msgid "Copyright Style"
+msgstr ""
+
+#: lib/defines.php:338
+msgid "Select Copyright style"
+msgstr ""
+
+#: lib/defines.php:340 lib/defines.php:743 lib/nav.php:86
+msgid "Default"
+msgstr ""
+
+#: lib/defines.php:341
+msgid "Style1"
+msgstr ""
+
+#: lib/defines.php:342
+msgid "Style2"
+msgstr ""
+
+#: lib/defines.php:343
+msgid "Style3"
+msgstr ""
+
+#: lib/defines.php:352
+msgid "Copyright text"
+msgstr ""
+
+#: lib/defines.php:358
+msgid "Navbar Options"
+msgstr ""
+
+#: lib/defines.php:359
+msgid ""
+"<p class=\"description\">If you got a big site with a lot of sub menus we "
+"recommend using a mega menu. Just select the dropbox to display a menu as mega "
+"menu or dropdown menu.</p>"
+msgstr ""
+
+#: lib/defines.php:368
+msgid "Navbar Menu General Config"
+msgstr ""
+
+#: lib/defines.php:376
+msgid "Menu Type"
+msgstr ""
+
+#: lib/defines.php:378
+msgid "Dropdown Menu"
+msgstr ""
+
+#: lib/defines.php:379
+msgid "Mega Menu"
+msgstr ""
+
+#: lib/defines.php:387
+msgid "Mega Menu Location"
+msgstr ""
+
+#: lib/defines.php:388
+msgid "Select theme location to active mega menu."
+msgstr ""
+
+#: lib/defines.php:395
+msgid "Active sticky menu"
+msgstr ""
+
+#: lib/defines.php:404
+msgid "Active More Menu"
+msgstr ""
+
+#: lib/defines.php:405
+msgid "Active more menu if your primary menu is too long"
+msgstr ""
+
+#: lib/defines.php:413
+msgid "Menu Event"
+msgstr ""
+
+#: lib/defines.php:415
+msgid "Hover Event"
+msgstr ""
+
+#: lib/defines.php:416
+msgid "Click Event"
+msgstr ""
+
+#: lib/defines.php:424
+msgid "Number Item Vertical"
+msgstr ""
+
+#: lib/defines.php:425
+msgid "Number item vertical to show"
+msgstr ""
+
+#: lib/defines.php:432
+msgid "Vertical Title Text"
+msgstr ""
+
+#: lib/defines.php:433
+msgid "Change title text on vertical menu"
+msgstr ""
+
+#: lib/defines.php:440
+msgid "Vertical More Text"
+msgstr ""
+
+#: lib/defines.php:441
+msgid "Change more text on vertical menu"
+msgstr ""
+
+#: lib/defines.php:448
+msgid "Vertical Less Text"
+msgstr ""
+
+#: lib/defines.php:449
+msgid "Change less text on vertical menu"
+msgstr ""
+
+#: lib/defines.php:456
+msgid "Responsive Menu Config"
+msgstr ""
+
+#: lib/defines.php:464
+msgid "Mobile & Responsive Menu Location"
+msgstr ""
+
+#: lib/defines.php:465
+msgid "Select theme location to active mobile menu."
+msgstr ""
+
+#: lib/defines.php:472
+msgid "Mobile Menu Title"
+msgstr ""
+
+#: lib/defines.php:473
+msgid ""
+"Change title heading of menu responsive. If there are many menu, each title "
+"separated by commas."
+msgstr ""
+
+#: lib/defines.php:480
+msgid "Blog Options"
+msgstr ""
+
+#: lib/defines.php:481
+msgid "<p class=\"description\">Select layout in blog listing page.</p>"
+msgstr ""
+
+#: lib/defines.php:490
+msgid "Sidebar Blog Layout"
+msgstr ""
+
+#: lib/defines.php:492 lib/defines.php:665 lib/defines.php:731
+msgid "Full Layout"
+msgstr ""
+
+#: lib/defines.php:493 lib/defines.php:664 lib/defines.php:730
+msgid "Left Sidebar"
+msgstr ""
+
+#: lib/defines.php:494 lib/defines.php:666 lib/defines.php:732
+msgid "Right Sidebar"
+msgstr ""
+
+#: lib/defines.php:497
+msgid "Select style sidebar blog"
+msgstr ""
+
+#: lib/defines.php:502
+msgid "Layout blog"
+msgstr ""
+
+#: lib/defines.php:504
+msgid "List Layout"
+msgstr ""
+
+#: lib/defines.php:505
+msgid "List Layout2"
+msgstr ""
+
+#: lib/defines.php:506
+msgid "Grid Layout"
+msgstr ""
+
+#: lib/defines.php:509
+msgid "Select style layout blog"
+msgstr ""
+
+#: lib/defines.php:514
+msgid "Blog column"
+msgstr ""
+
+#: lib/defines.php:516
+msgid "2 Columns"
+msgstr ""
+
+#: lib/defines.php:517
+msgid "3 Columns"
+msgstr ""
+
+#: lib/defines.php:518
+msgid "4 Columns"
+msgstr ""
+
+#: lib/defines.php:521
+msgid "Select style number column blog"
+msgstr ""
+
+#: lib/defines.php:526
+msgid "Product Options"
+msgstr ""
+
+#: lib/defines.php:527
+msgid "<p class=\"description\">Select layout in product listing page.</p>"
+msgstr ""
+
+#: lib/defines.php:536
+msgid "Product Categories Config"
+msgstr ""
+
+#: lib/defines.php:544
+msgid "Product Category Listing column Desktop"
+msgstr ""
+
+#: lib/defines.php:553 lib/defines.php:626
+msgid "Select number of column on Desktop Screen"
+msgstr ""
+
+#: lib/defines.php:559
+msgid "Product Listing Category column Medium Desktop"
+msgstr ""
+
+#: lib/defines.php:568 lib/defines.php:641
+msgid "Select number of column on Medium Desktop Screen"
+msgstr ""
+
+#: lib/defines.php:574
+msgid "Product Listing Category column Tablet"
+msgstr ""
+
+#: lib/defines.php:583 lib/defines.php:656
+msgid "Select number of column on Tablet Screen"
+msgstr ""
+
+#: lib/defines.php:589
+msgid "Product General Config"
+msgstr ""
+
+#: lib/defines.php:596
+msgid "Select Banner"
+msgstr ""
+
+#: lib/defines.php:600
+msgid "Use Banner"
+msgstr ""
+
+#: lib/defines.php:601
+msgid "Use Category Product Image"
+msgstr ""
+
+#: lib/defines.php:609
+msgid "Listing Banner Product"
+msgstr ""
+
+#: lib/defines.php:610
+msgid "Use the Upload button to upload banner product listing"
+msgstr ""
+
+#: lib/defines.php:617
+msgid "Product Listing column Desktop"
+msgstr ""
+
+#: lib/defines.php:632
+msgid "Product Listing column Medium Desktop"
+msgstr ""
+
+#: lib/defines.php:647
+msgid "Product Listing column Tablet"
+msgstr ""
+
+#: lib/defines.php:662
+msgid "Sidebar Product Layout"
+msgstr ""
+
+#: lib/defines.php:669
+msgid "Select style sidebar product"
+msgstr ""
+
+#: lib/defines.php:674
+msgid "Quickview"
+msgstr ""
+
+#: lib/defines.php:677
+msgid "Turn On/Off Product Quickview"
+msgstr ""
+
+#: lib/defines.php:683
+msgid "Enable Countdown"
+msgstr ""
+
+#: lib/defines.php:686
+msgid "Turn On/Off Product Countdown on product listing"
+msgstr ""
+
+#: lib/defines.php:692
+msgid "Product Sold Out"
+msgstr ""
+
+#: lib/defines.php:695
+msgid "Turn On/Off product sold out label"
+msgstr ""
+
+#: lib/defines.php:703
+msgid "Product Listing Number"
+msgstr ""
+
+#: lib/defines.php:704
+msgid "Show number of product in listing product page."
+msgstr ""
+
+#: lib/defines.php:710
+msgid "New Product"
+msgstr ""
+
+#: lib/defines.php:713
+msgid "Set day for the new product label from the date publish product."
+msgstr ""
+
+#: lib/defines.php:720
+msgid "Product Single Config"
+msgstr ""
+
+#: lib/defines.php:728
+msgid "Sidebar Product Single Layout"
+msgstr ""
+
+#: lib/defines.php:735
+msgid "Select style sidebar product single"
+msgstr ""
+
+#: lib/defines.php:741
+msgid "Product Detail Style"
+msgstr ""
+
+#: lib/defines.php:744
+msgid "Full Width"
+msgstr ""
+
+#: lib/defines.php:745
+msgid "Full Width With Accordion"
+msgstr ""
+
+#: lib/defines.php:746
+msgid "Full Width With Accordion 1"
+msgstr ""
+
+#: lib/defines.php:749
+msgid "Select style for product single"
+msgstr ""
+
+#: lib/defines.php:755
+msgid "Product Thumbnail Position"
+msgstr ""
+
+#: lib/defines.php:757
+msgid "Bottom"
+msgstr ""
+
+#: lib/defines.php:758
+msgid "Left"
+msgstr ""
+
+#: lib/defines.php:759
+msgid "Right"
+msgstr ""
+
+#: lib/defines.php:760
+msgid "Top"
+msgstr ""
+
+#: lib/defines.php:763
+msgid "Select style for product single thumbnail"
+msgstr ""
+
+#: lib/defines.php:769
+msgid "Product Zoom"
+msgstr ""
+
+#: lib/defines.php:772
+msgid "Turn On/Off image zoom when hover on single product"
+msgstr ""
+
+#: lib/defines.php:778
+msgid "Enable Product Brand Image"
+msgstr ""
+
+#: lib/defines.php:781
+msgid "Turn On/Off product brand image show on single product."
+msgstr ""
+
+#: lib/defines.php:787
+msgid "Enable Countdown Single"
+msgstr ""
+
+#: lib/defines.php:790
+msgid "Turn On/Off Product Countdown on product single"
+msgstr ""
+
+#: lib/defines.php:797
+msgid "Config For Product Categories Widget"
+msgstr ""
+
+#: lib/defines.php:805
+msgid "Category Number Item Show"
+msgstr ""
+
+#: lib/defines.php:806
+msgid ""
+"Choose to number of item category that you want to show, leave 0 to show all "
+"category"
+msgstr ""
+
+#: lib/defines.php:813
+msgid "Category More Text"
+msgstr ""
+
+#: lib/defines.php:814
+msgid "Change more text on category product"
+msgstr ""
+
+#: lib/defines.php:821
+msgid "Category Less Text"
+msgstr ""
+
+#: lib/defines.php:822
+msgid "Change less text on category product"
+msgstr ""
+
+#: lib/defines.php:828
+msgid "Typography"
+msgstr ""
+
+#: lib/defines.php:829
+msgid ""
+"<p class=\"description\">Change the font style of your blog, custom with Google "
+"Font.</p>"
+msgstr ""
+
+#: lib/defines.php:838
+msgid "Global Typography"
+msgstr ""
+
+#: lib/defines.php:846
+msgid "Use Google Webfont"
+msgstr ""
+
+#: lib/defines.php:847
+msgid "Insert font style that you actually need on your webpage."
+msgstr ""
+
+#: lib/defines.php:854
+msgid "For weight, see Google Fonts to custom for each font style."
+msgstr ""
+
+#: lib/defines.php:855
+msgid "Webfont Weight"
+msgstr ""
+
+#: lib/defines.php:873
+msgid "Header Tag Typography"
+msgstr ""
+
+#: lib/defines.php:881
+msgid "Header Tag Font"
+msgstr ""
+
+#: lib/defines.php:882
+msgid "Select custom font for header tag ( h1...h6 )"
+msgstr ""
+
+#: lib/defines.php:889
+msgid "Main Menu Typography"
+msgstr ""
+
+#: lib/defines.php:897
+msgid "Main Menu Font"
+msgstr ""
+
+#: lib/defines.php:898
+msgid "Select custom font for main menu"
+msgstr ""
+
+#: lib/defines.php:905
+msgid "Custom Typography"
+msgstr ""
+
+#: lib/defines.php:913
+msgid "Custom Font"
+msgstr ""
+
+#: lib/defines.php:914
+msgid "Select custom font for custom class"
+msgstr ""
+
+#: lib/defines.php:920
+msgid "Custom Font Class"
+msgstr ""
+
+#: lib/defines.php:922
+msgid "Put custom class to this field. Each class separated by commas."
+msgstr ""
+
+#: lib/defines.php:931
+msgid "Social"
+msgstr ""
+
+#: lib/defines.php:932
+msgid ""
+"<p class=\"description\">This feature allow to you link to your social.</p>"
+msgstr ""
+
+#: lib/defines.php:940 lib/utils.php:1123
+msgid "Facebook"
+msgstr ""
+
+#: lib/defines.php:948 lib/utils.php:1127
+msgid "Twitter"
+msgstr ""
+
+#: lib/defines.php:956 lib/utils.php:1131
+msgid "Tumblr"
+msgstr ""
+
+#: lib/defines.php:964 lib/utils.php:1135
+msgid "Linkedin"
+msgstr ""
+
+#: lib/defines.php:972 lib/utils.php:1139
+msgid "Instagram"
+msgstr ""
+
+#: lib/defines.php:980 lib/utils.php:1143
+msgid "Pinterest"
+msgstr ""
+
+#: lib/defines.php:991
+msgid "Popup Config"
+msgstr ""
+
+#: lib/defines.php:992
+msgid "<p class=\"description\">Enable popup and more config for Popup.</p>"
+msgstr ""
+
+#: lib/defines.php:1001
+msgid "Active Popup Subscribe"
+msgstr ""
+
+#: lib/defines.php:1002
+msgid "Check to active popup subscribe"
+msgstr ""
+
+#: lib/defines.php:1009
+msgid "Popup Background"
+msgstr ""
+
+#: lib/defines.php:1011
+msgid "Choose popup background image"
+msgstr ""
+
+#: lib/defines.php:1018
+msgid "Popup Content"
+msgstr ""
+
+#: lib/defines.php:1020
+msgid "Change text of popup mode"
+msgstr ""
+
+#: lib/defines.php:1027
+msgid "Popup Form"
+msgstr ""
+
+#: lib/defines.php:1029
+msgid ""
+"Put shortcode form to this field and it will be shown on popup mode frontend."
+msgstr ""
+
+#: lib/defines.php:1038 lib/nav.php:83
+msgid "Advanced"
+msgstr ""
+
+#: lib/defines.php:1039
+msgid ""
+"<p class=\"description\">Custom advanced with Cpanel, Widget advanced, "
+"Developer mode </p>"
+msgstr ""
+
+#: lib/defines.php:1047
+msgid "Show cPanel"
+msgstr ""
+
+#: lib/defines.php:1049
+msgid "Turn on/off Cpanel"
+msgstr ""
+
+#: lib/defines.php:1056
+msgid "Widget Advanced"
+msgstr ""
+
+#: lib/defines.php:1058
+msgid "Turn on/off Widget Advanced"
+msgstr ""
+
+#: lib/defines.php:1065
+msgid "Social Share"
+msgstr ""
+
+#: lib/defines.php:1067
+msgid "Turn on/off social share"
+msgstr ""
+
+#: lib/defines.php:1074
+msgid "Turn Off Breadcrumb"
+msgstr ""
+
+#: lib/defines.php:1076
+msgid "Turn off breadcumb on all page"
+msgstr ""
+
+#: lib/defines.php:1084
+msgid "Back to top"
+msgstr ""
+
+#: lib/defines.php:1093
+msgid "Direction"
+msgstr ""
+
+#: lib/defines.php:1101
+msgid "Example: $(\"p\").hide()"
+msgstr ""
+
+#: lib/defines.php:1102
+msgid ""
+"Insert your own JS into this block. This customizes js throughout the theme"
+msgstr ""
+
+#: lib/defines.php:1103
+msgid "Custom JS"
+msgstr ""
+
+#: lib/defines.php:1114
+msgid "Theme Options"
+msgstr ""
+
+#: lib/defines.php:1117
+msgid "Bestshop Options "
+msgstr ""
+
+#: lib/defines.php:1142
+msgid "Sidebar Left Blog"
+msgstr ""
+
+#: lib/defines.php:1150
+msgid "Sidebar Right Blog"
+msgstr ""
+
+#: lib/defines.php:1159
+msgid "Top Header"
+msgstr ""
+
+#: lib/defines.php:1167
+msgid "Top Header5"
+msgstr ""
+
+#: lib/defines.php:1175
+msgid "Top Header51"
+msgstr ""
+
+#: lib/defines.php:1183
+msgid "Header Right"
+msgstr ""
+
+#: lib/defines.php:1191
+msgid "Header Right2"
+msgstr ""
+
+#: lib/defines.php:1199
+msgid "Header Right3"
+msgstr ""
+
+#: lib/defines.php:1207
+msgid "Header Right5"
+msgstr ""
+
+#: lib/defines.php:1215
+msgid "Header Right51"
+msgstr ""
+
+#: lib/defines.php:1223
+msgid "Header Right6"
+msgstr ""
+
+#: lib/defines.php:1231
+msgid "Header Left"
+msgstr ""
+
+#: lib/defines.php:1239
+msgid "Header Bottom"
+msgstr ""
+
+#: lib/defines.php:1248
+msgid "Sidebar Above Product"
+msgstr ""
+
+#: lib/defines.php:1257
+msgid "Sidebar Left Product"
+msgstr ""
+
+#: lib/defines.php:1266
+msgid "Sidebar Right Product"
+msgstr ""
+
+#: lib/defines.php:1275
+msgid "Sidebar Left Detail Product"
+msgstr ""
+
+#: lib/defines.php:1284
+msgid "Sidebar Right Detail Product"
+msgstr ""
+
+#: lib/defines.php:1293
+msgid "Sidebar Bottom Detail Product"
+msgstr ""
+
+#: lib/defines.php:1302
+msgid "Footer Copyright"
+msgstr ""
+
+#: lib/defines.php:1310
+msgid "Widget Search"
+msgstr ""
+
+#: lib/import/sw-import.php:25 lib/import/sw-import.php:49
+#: lib/import/sw-import.php:74
+msgid ""
+"After you import this demo, you will have to setup the slider separately. This "
+"import maybe finish on 10-15 minutes"
+msgstr ""
+
+#: lib/init.php:11
+msgid "Primary Menu"
+msgstr ""
+
+#: lib/init.php:12
+msgid "Vertical Menu"
+msgstr ""
+
+#: lib/init.php:13
+msgid "Mobile Menu"
+msgstr ""
+
+#: lib/nav.php:22
+msgid "Active mega menu"
+msgstr ""
+
+#: lib/nav.php:28
+#, php-format
+msgid "Show an icon by <a href=\"%s\">Font Awesome 4.6</a>"
+msgstr ""
+
+#: lib/nav.php:34
+msgid "Dropdown sub size"
+msgstr ""
+
+#: lib/nav.php:48
+msgid "Active Full Mega Menu"
+msgstr ""
+
+#: lib/nav.php:53
+msgid "Dropdown Size"
+msgstr ""
+
+#: lib/nav.php:66
+msgid "Show Description as Subtitle"
+msgstr ""
+
+#: lib/nav.php:71
+msgid "Hide Title"
+msgstr ""
+
+#: lib/nav.php:72
+msgid "If icon or subtitle are using."
+msgstr ""
+
+#: lib/nav.php:77
+msgid "Disable Link"
+msgstr ""
+
+#: lib/nav.php:78
+msgid "Remove Link"
+msgstr ""
+
+#: lib/nav.php:87
+msgid "Append Advanced Content or Shortcode"
+msgstr ""
+
+#: lib/nav.php:88
+msgid "Append Advanced Content with Page Select"
+msgstr ""
+
+#: lib/nav.php:93
+msgid "Advanced Content"
+msgstr ""
+
+#: lib/nav.php:99
+msgid "Page Select"
+msgstr ""
+
+#: lib/nav.php:101
+msgid "Select page to show on mega menu"
+msgstr ""
+
+#: lib/nav.php:105
+msgid "Menu Thumbnail"
+msgstr ""
+
+#: lib/nav.php:275
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: lib/nav.php:279
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: lib/nav.php:302
+msgid "Move up"
+msgstr ""
+
+#: lib/nav.php:315
+msgid "Move down"
+msgstr ""
+
+#: lib/nav.php:317 lib/nav.php:319
+msgid "Edit Menu Item"
+msgstr ""
+
+#: lib/nav.php:327
+msgid "URL"
+msgstr ""
+
+#: lib/nav.php:334
+msgid "Navigation Label"
+msgstr ""
+
+#: lib/nav.php:340
+msgid "Title Attribute"
+msgstr ""
+
+#: lib/nav.php:347
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: lib/nav.php:352
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: lib/nav.php:358
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: lib/nav.php:364
+msgid "Description"
+msgstr ""
+
+#: lib/nav.php:366
+msgid ""
+"The description will be displayed in the menu if the current theme supports it."
+msgstr ""
+
+#: lib/nav.php:370
+msgid "Show/Hide Advance Menu Config"
+msgstr ""
+
+#: lib/nav.php:404
+#, php-format
+msgid "%s"
+msgid_plural "%s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/nav.php:413
+msgid "Select page"
+msgstr ""
+
+#: lib/nav.php:430
+msgid "Browse"
+msgstr ""
+
+#: lib/nav.php:431 lib/nav.php:467
+msgid "Remove"
+msgstr ""
+
+#: lib/nav.php:454
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: lib/nav.php:468
+msgid "Cancel"
+msgstr ""
+
+#: lib/nav.php:522 lib/responsive_dropdown_sidebar.php:226
+msgid "Thumbnail"
+msgstr ""
+
+#: lib/nav.php:675
+msgid "Menu Image"
+msgstr ""
+
+#: lib/plugin-requirement.php:9
+msgid "WooCommerce"
+msgstr ""
+
+#: lib/plugin-requirement.php:16
+msgid "Revslider"
+msgstr ""
+
+#: lib/plugin-requirement.php:24
+msgid "SW Core"
+msgstr ""
+
+#: lib/plugin-requirement.php:32
+msgid "SW WooCommerce"
+msgstr ""
+
+#: lib/plugin-requirement.php:40
+msgid "SW Ajax Woocommerce Search"
+msgstr ""
+
+#: lib/plugin-requirement.php:48
+msgid "Sw Woocommerce Swatches"
+msgstr ""
+
+#: lib/plugin-requirement.php:56
+msgid "Sw Product Bundles"
+msgstr ""
+
+#: lib/plugin-requirement.php:64
+msgid "Sw Vendor Slider"
+msgstr ""
+
+#: lib/plugin-requirement.php:72
+msgid "Sw Product Brand"
+msgstr ""
+
+#: lib/plugin-requirement.php:80
+msgid "One Click Install"
+msgstr ""
+
+#: lib/plugin-requirement.php:86
+msgid "Visual Composer"
+msgstr ""
+
+#: lib/plugin-requirement.php:93
+msgid "MailChimp for WordPress Lite"
+msgstr ""
+
+#: lib/plugin-requirement.php:98
+msgid "Contact Form 7"
+msgstr ""
+
+#: lib/plugin-requirement.php:103
+msgid "YITH Woocommerce Compare"
+msgstr ""
+
+#: lib/plugin-requirement.php:108
+msgid "YITH Woocommerce Wishlist"
+msgstr ""
+
+#: lib/plugin-requirement.php:113
+msgid "WordPress Seo"
+msgstr ""
+
+#: lib/responsive_dropdown_sidebar.php:155
+msgid "Menu"
+msgstr ""
+
+#: lib/responsive_dropdown_sidebar.php:161
+msgid "Categories"
+msgstr ""
+
+#: lib/scripts.php:54 lib/utils.php:977
+msgid "Add To Cart"
+msgstr ""
+
+#: lib/scripts.php:55 lib/utils.php:978
+msgid "Add To Compare"
+msgstr ""
+
+#: lib/scripts.php:56 lib/utils.php:979
+msgid "Add To WishList"
+msgstr ""
+
+#: lib/scripts.php:57 lib/utils.php:980
+msgid "QuickView"
+msgstr ""
+
+#: lib/scripts.php:60 lib/utils.php:983
+msgid "Please enter your usename and password"
+msgstr ""
+
+#: lib/scripts.php:68
+msgid "More..."
+msgstr ""
+
+#: lib/scripts.php:95
+msgid ""
+"Sorry, no products matched your selection. Please choose a different "
+"combination."
+msgstr ""
+
+#: lib/scripts.php:96
+msgid ""
+"Please select some product options before adding this product to your cart."
+msgstr ""
+
+#: lib/scripts.php:97
+msgid "Sorry, this product is unavailable. Please choose a different combination."
+msgstr ""
+
+#: lib/utils.php:18
+msgid "Latest Posts"
+msgstr ""
+
+#: lib/utils.php:27
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: lib/utils.php:29
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: lib/utils.php:31
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: lib/utils.php:33
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: lib/utils.php:38
+#, php-format
+msgid "Search Results for \"%s\""
+msgstr ""
+
+#: lib/utils.php:40
+msgid "Not Found"
+msgstr ""
+
+#: lib/utils.php:86
+msgid "Share"
+msgstr ""
+
+#: lib/utils.php:411
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: lib/utils.php:521 lib/utils.php:530 mlayouts/footer-mstyle1.php:12
+#: mlayouts/footer-mstyle1.php:14
+msgid "Home"
+msgstr ""
+
+#: lib/utils.php:603 lib/utils.php:618
+msgid "Archives for"
+msgstr ""
+
+#: lib/utils.php:622
+msgid "You searched for"
+msgstr ""
+
+#: lib/utils.php:625
+msgid "Error 404: Page not found"
+msgstr ""
+
+#: lib/utils.php:766
+msgid "Don't show this popup again!"
+msgstr ""
+
+#: lib/utils.php:786 lib/utils.php:824
+msgid "Close"
+msgstr ""
+
+#: lib/utils.php:787
+msgid "Sign in Or Register"
+msgstr ""
+
+#: lib/utils.php:791
+msgid "Or"
+msgstr ""
+
+#: lib/utils.php:822 widgets/sw_top/searchcate.php:39
+msgid "Enter your keyword..."
+msgstr ""
+
+#: lib/utils.php:824
+msgid "X"
+msgstr ""
+
+#: lib/wc-marketplace-hook.php:14
+msgid "Sold By"
+msgstr ""
+
+#: lib/woocommerce-hook.php:60 woocommerce/single-product/price.php:39
+msgid "Out stock"
+msgstr ""
+
+#: lib/woocommerce-hook.php:60 woocommerce/single-product/price.php:39
+msgid "in stock"
+msgstr ""
+
+#: lib/woocommerce-hook.php:74
+msgid "Quick View "
+msgstr ""
+
+#: lib/woocommerce-hook.php:151 lib/woocommerce-hook.php:155
+#: woocommerce/content-quickview-product.php:84
+#: woocommerce/single-product/product-image.php:64
+msgid "Placeholder"
+msgstr ""
+
+#: lib/woocommerce-hook.php:265 lib/woocommerce-hook.php:273
+#: lib/woocommerce-hook.php:275 lib/woocommerce-hook.php:278
+msgid "Banner Category"
+msgstr ""
+
+#: lib/woocommerce-hook.php:302
+msgid "Grid view"
+msgstr ""
+
+#: lib/woocommerce-hook.php:303
+msgid "List view"
+msgstr ""
+
+#: lib/woocommerce-hook.php:347 lib/woocommerce-hook.php:348
+msgid "Sort by Default"
+msgstr ""
+
+#: lib/woocommerce-hook.php:349
+msgid "Sort by Popularity"
+msgstr ""
+
+#: lib/woocommerce-hook.php:350
+msgid "Sort by Rating"
+msgstr ""
+
+#: lib/woocommerce-hook.php:351
+msgid "Sort by Date"
+msgstr ""
+
+#: lib/woocommerce-hook.php:352
+msgid "Sort by Price"
+msgstr ""
+
+#: lib/woocommerce-hook.php:353
+msgid "Sort by Price ( desc )"
+msgstr ""
+
+#: lib/woocommerce-hook.php:368
+msgid "Show"
+msgstr ""
+
+#: lib/woocommerce-hook.php:392
+msgid "Filter"
+msgstr ""
+
+#: lib/woocommerce-hook.php:544 lib/woocommerce-hook.php:702
+msgid "Compare"
+msgstr ""
+
+#: lib/woocommerce-hook.php:616
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/woocommerce-hook.php:617 lib/woocommerce-hook.php:727
+#: woocommerce/single-product/meta.php:18
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/woocommerce-hook.php:656
+msgid "Product by"
+msgstr ""
+
+#: lib/woocommerce-hook.php:718
+msgid "Tags"
+msgstr ""
+
+#: lib/woocommerce-hook.php:836
+msgid "Login Successful, redirecting..."
+msgstr ""
+
+#: lib/woocommerce-hook.php:854
+msgid "Out Stock"
+msgstr ""
+
+#: lib/woocommerce-hook.php:857
+msgid "New"
+msgstr ""
+
+#: mlayouts/content-grid.php:22 mlayouts/content-grid.php:78
+#: mlayouts/content-single.php:16 mlayouts/content-single.php:91
+msgid "Post By:"
+msgstr ""
+
+#: mlayouts/content-grid.php:25 mlayouts/content-grid.php:81
+#: mlayouts/content-single.php:21 mlayouts/content-single.php:96
+#: templates/content-grid.php:23 templates/content-grid.php:86
+#: templates/content-list.php:28 templates/content-list.php:103
+#: templates/content-list2.php:25 templates/content-list2.php:94
+#: templates/content-single.php:55 templates/content-single.php:156
+#, php-format
+msgid "%d Comment"
+msgid_plural "%d Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: mlayouts/content-grid.php:29 mlayouts/content-grid.php:97
+#: templates/content-grid.php:36 templates/content-grid.php:99
+#: templates/content-list.php:44 templates/content-list.php:111
+#: templates/content-list2.php:38 templates/content-list2.php:99
+msgid "Read More"
+msgstr ""
+
+#: mlayouts/content-grid.php:65 templates/content-grid.php:72
+#: templates/content-list.php:86 templates/content-list2.php:80
+#: templates/pagination.php:15
+msgid "Prev"
+msgstr ""
+
+#: mlayouts/content-grid.php:66 templates/content-grid.php:73
+#: templates/content-list.php:87 templates/content-list2.php:81
+#: templates/pagination.php:16
+msgid "Next"
+msgstr ""
+
+#: mlayouts/content-single.php:30 search.php:68 templates/content-page.php:7
+#: templates/content-single.php:75
+msgid "Pages:"
+msgstr ""
+
+#: mlayouts/content-single.php:74 templates/content-single.php:138
+msgid "Related News"
+msgstr ""
+
+#: mlayouts/footer-mstyle1.php:20 mlayouts/footer-mstyle1.php:22
+#: mlayouts/header-mstyle1.php:28 searchform.php:4 searchform.php:5
+#: templates/searchform.php:3 widgets/sw_top/searchcate.php:40
+msgid "Search"
+msgstr ""
+
+#: mlayouts/footer-mstyle1.php:36 mlayouts/footer-mstyle1.php:38
+msgid "My Account"
+msgstr ""
+
+#: mlayouts/footer-mstyle1.php:44 mlayouts/footer-mstyle1.php:46
+msgid "More"
+msgstr ""
+
+#: search.php:67
+msgid "Read more"
+msgstr ""
+
+#: searchform.php:3
+msgid "Search for"
+msgstr ""
+
+#: templates/comments.php:17
+msgid "(Edit)"
+msgstr ""
+
+#: templates/comments.php:23
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: templates/comments.php:36
+msgid "Comments"
+msgstr ""
+
+#: templates/comments.php:40
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: templates/comments.php:54 templates/comments.php:56
+msgid "&larr; Older comments"
+msgstr ""
+
+#: templates/comments.php:59 templates/comments.php:61
+msgid "Newer comments &rarr;"
+msgstr ""
+
+#: templates/comments.php:73
+msgid "Leave a comment"
+msgstr ""
+
+#: templates/comments.php:74
+msgid ""
+"Make sure you enter the(*) required information where indicated. HTML code is "
+"not allowed"
+msgstr ""
+
+#: templates/comments.php:78
+msgid "Name*"
+msgstr ""
+
+#: templates/comments.php:83
+msgid "Email*"
+msgstr ""
+
+#: templates/comments.php:87
+msgid "Your Website"
+msgstr ""
+
+#: templates/comments.php:93
+msgid "Your Comment *"
+msgstr ""
+
+#: templates/comments.php:98
+msgid "Submit"
+msgstr ""
+
+#: templates/content-list.php:24 templates/content-list.php:99
+#: templates/content-single.php:51
+msgid "Post by:"
+msgstr ""
+
+#: templates/content-single.php:64
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+#: templates/content-single.php:82
+msgid "TAGS: "
+msgstr ""
+
+#: templates/entry-meta.php:4
+msgid "Author"
+msgstr ""
+
+#: templates/entry-meta.php:5
+msgid "Published"
+msgstr ""
+
+#: templates/entry-meta.php:6
+msgid "Category"
+msgstr ""
+
+#: templates/footer.php:22
+msgid "WordPress Theme SW Bestshop. All Rights Reserved."
+msgstr ""
+
+#: templates/header-style1.php:10
+msgid "More Categories"
+msgstr ""
+
+#: templates/header-style1.php:11
+msgid "Less Categories"
+msgstr ""
+
+#: templates/header-style1.php:12
+msgid "All Department"
+msgstr ""
+
+#: templates/header-style2.php:10 templates/header-style3.php:10
+#: templates/header-style4.php:10 templates/header-style5.php:10
+#: widgets/woocommerce/widget-product-categories.php:229
+msgid "See More"
+msgstr ""
+
+#: templates/header-style2.php:11 templates/header-style3.php:11
+#: templates/header-style4.php:11 templates/header-style5.php:11
+#: widgets/woocommerce/widget-product-categories.php:230
+msgid "See Less"
+msgstr ""
+
+#: templates/no-results.php:9
+msgid "no products found"
+msgstr ""
+
+#: templates/no-results.php:10
+msgid "Sorry, but nothing matched your search terms."
+msgstr ""
+
+#: templates/no-results.php:10
+msgid "Please try again with some different keywords."
+msgstr ""
+
+#: templates/no-results.php:11
+msgid "Shop"
+msgstr ""
+
+#: templates/no-results.php:11
+msgid "back to categories"
+msgstr ""
+
+#: templates/no-results.php:15
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: widgets/sw_top/login.php:12 woocommerce/myaccount/form-login.php:29
+#: woocommerce/myaccount/form-login.php:52
+#: woocommerce/myaccount/form-login.php:125
+#: woocommerce/myaccount/form-login.php:148
+#: woocommerce/myaccount/login-form.php:30
+msgid "Login"
+msgstr ""
+
+#: widgets/sw_top/login.php:12
+msgid "or"
+msgstr ""
+
+#: widgets/sw_top/login.php:13 woocommerce/myaccount/form-login.php:66
+#: woocommerce/myaccount/form-login.php:103
+#: woocommerce/myaccount/form-login.php:164
+#: woocommerce/myaccount/form-login.php:198
+#: woocommerce/myaccount/login-form.php:44
+msgid "Register"
+msgstr ""
+
+#: widgets/sw_top/login.php:25
+msgid "Logout"
+msgstr ""
+
+#: widgets/sw_top/searchcate.php:54
+msgid "Popular Keywords"
+msgstr ""
+
+#: widgets/woocommerce/widget-product-categories.php:37
+msgid "A list or dropdown of product categories."
+msgstr ""
+
+#: widgets/woocommerce/widget-product-categories.php:39
+msgid "WooCommerce product categories"
+msgstr ""
+
+#: widgets/woocommerce/widget-product-categories.php:43
+msgid "Product categories"
+msgstr ""
+
+#: widgets/woocommerce/widget-product-categories.php:49
+msgid "Order by"
+msgstr ""
+
+#: widgets/woocommerce/widget-product-categories.php:51
+msgid "Category order"
+msgstr ""
+
+#: widgets/woocommerce/widget-product-categories.php:52
+msgid "Name"
+msgstr ""
+
+#: widgets/woocommerce/widget-product-categories.php:58
+msgid "Show as dropdown"
+msgstr ""
+
+#: widgets/woocommerce/widget-product-categories.php:63
+msgid "Show product counts"
+msgstr ""
+
+#: widgets/woocommerce/widget-product-categories.php:68
+msgid "Show hierarchy"
+msgstr ""
+
+#: widgets/woocommerce/widget-product-categories.php:73
+msgid "Only show children of the current category"
+msgstr ""
+
+#: widgets/woocommerce/widget-product-categories.php:78
+msgid "Hide empty categories"
+msgstr ""
+
+#: widgets/woocommerce/widget-product-categories.php:237
+msgid "No product categories exist."
+msgstr ""
+
+#: woocommerce/minicart-ajax-mobile.php:9 woocommerce/minicart-ajax-style2.php:49
+#: woocommerce/minicart-ajax-style3.php:48 woocommerce/minicart-ajax.php:48
+msgid "Cart"
+msgstr ""
+
+#: woocommerce/minicart-ajax-style2.php:8 woocommerce/minicart-ajax-style2.php:36
+#: woocommerce/minicart-ajax-style3.php:8 woocommerce/minicart-ajax-style3.php:35
+#: woocommerce/minicart-ajax.php:8 woocommerce/minicart-ajax.php:35
+msgid "View your shopping cart"
+msgstr ""
+
+#: woocommerce/minicart-ajax-style2.php:8
+msgid "My Cart:"
+msgstr ""
+
+#: woocommerce/minicart-ajax-style2.php:8 woocommerce/minicart-ajax.php:8
+msgid " Item(s)"
+msgstr ""
+
+#: woocommerce/minicart-ajax-style2.php:9 woocommerce/minicart-ajax-style2.php:50
+#: woocommerce/minicart-ajax-style3.php:49 woocommerce/minicart-ajax.php:49
+msgid "Check Out"
+msgstr ""
+
+#: woocommerce/minicart-ajax-style2.php:13 woocommerce/minicart-ajax-style3.php:12
+#: woocommerce/minicart-ajax.php:12
+#, php-format
+msgid "There are <span class=\"item\">%d item(s)</span> in your cart"
+msgstr ""
+
+#: woocommerce/minicart-ajax-style2.php:35 woocommerce/minicart-ajax-style3.php:34
+#: woocommerce/minicart-ajax.php:34
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/minicart-ajax-style2.php:45 woocommerce/minicart-ajax-style3.php:44
+#: woocommerce/minicart-ajax.php:44
+msgid "Subtotal:"
+msgstr ""
+
+#: woocommerce/minicart-ajax-style2.php:49 woocommerce/minicart-ajax-style3.php:48
+#: woocommerce/minicart-ajax.php:48
+msgid "View Cart"
+msgstr ""
+
+#: woocommerce/minicart-ajax.php:8
+msgid "Your Cart:"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:33
+#, php-format
+msgid "Hello %s%s%s (not %2$s? %sSign out%s)"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:39
+#, php-format
+msgid ""
+"From your account dashboard you can view your %1$srecent orders%2$s, manage "
+"your %3$sshipping and billing addresses%2$s and %4$sedit your password and "
+"account details%2$s."
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:36
+#: woocommerce/myaccount/form-login.php:132
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:40 woocommerce/myaccount/form-login.php:89
+#: woocommerce/myaccount/form-login.php:136
+#: woocommerce/myaccount/form-login.php:187
+#: woocommerce/myaccount/login-form.php:22
+msgid "Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:47
+#: woocommerce/myaccount/form-login.php:143
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:55
+#: woocommerce/myaccount/form-login.php:151
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:75
+#: woocommerce/myaccount/form-login.php:173
+#: woocommerce/myaccount/login-form.php:19
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:82
+#: woocommerce/myaccount/form-login.php:180
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:96
+msgid "Anti-spam"
+msgstr ""
+
+#: woocommerce/myaccount/login-form.php:25
+msgid "Forgot your password"
+msgstr ""
+
+#: woocommerce/myaccount/login-form.php:25
+msgid "Forgot your password?"
+msgstr ""
+
+#: woocommerce/myaccount/login-form.php:37
+msgid "NEW HERE?"
+msgstr ""
+
+#: woocommerce/myaccount/login-form.php:38
+msgid "Registration is free and easy!"
+msgstr ""
+
+#: woocommerce/myaccount/login-form.php:40
+msgid "Faster checkout"
+msgstr ""
+
+#: woocommerce/myaccount/login-form.php:41
+msgid "Save multiple shipping addresses"
+msgstr ""
+
+#: woocommerce/myaccount/login-form.php:42
+msgid "View and track orders and more"
+msgstr ""
+
+#: woocommerce/myaccount/login-form.php:44
+msgid "Create an account"
+msgstr ""
+
+#: woocommerce/single-product/price.php:45
+msgid "Product Code:"
+msgstr ""
+
+#: woocommerce/single-product/price.php:45
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:26
+#, php-format
+msgid "%s Review"
+msgid_plural "%s Review(s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/rating.php:27
+msgid "Add Your Review"
+msgstr ""

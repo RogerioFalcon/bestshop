@@ -1,0 +1,190 @@
+.wpb_gmaps_widget .wpb_wrapper {
+	padding: 0;
+}
+.contact-left{
+	h3{
+		font-size: 18px; color: @body-color; text-transform: uppercase; font-weight: 700; margin-bottom: 21px;
+	}
+	p{
+		line-height: 26px !important; border-bottom: 1px @border-color solid; padding-bottom: 17px; margin-bottom: 5px;
+	}
+	ul{
+		margin: 0;
+		li{
+			position: relative; list-style: none; padding: 13px 0 13px 30px !important; border-bottom: 1px @border-color solid;
+			.rtl &{
+				padding: 13px 30px 13px 0 !important;
+			}
+			&:first-child{
+				&:before{
+					content: "\f041"; font-family: fontawesome; position: absolute;top: 13px; left: 0; font-size: 20px;
+					.contact-us-v2 &{
+						top: 11px;
+					}
+					.rtl &{
+						left: auto; right: 0;
+					}
+				}
+			}
+			&:nth-child(2){
+				&:before{
+					content: "\f0e0"; font-family: fontawesome; position: absolute;top: 12px; left: 0;
+					.rtl &{
+						left: auto; right: 0;
+					}
+				}
+			}
+			&:last-child{
+				border-bottom: none;
+				&:before{
+					content: "\f095"; font-family: fontawesome; position: absolute;top: 10px; left: 0; font-size: 17px;
+					.rtl &{
+						left: auto; right: 0;
+					}
+				}
+			}
+		}
+	}
+}
+.contact-right{
+	h3{
+		font-size: 18px; color: @body-color; text-transform: uppercase; font-weight: 700; margin-bottom: 27px;
+	}
+	.wpcf7{
+		.cf-name, .cf-mail, .cf-sub{
+			width: 32%; float: left; margin-bottom: 30px; overflow: hidden;
+			.rtl &{
+				float: right;
+			}
+			input{
+				width: 100%;
+				.rtl &{
+					text-align: right;
+				}
+			}
+			input::-webkit-input-placeholder {
+				color: #555;
+			}
+			input::-moz-placeholder {  
+				color: #555;  
+			}
+			input:-ms-input-placeholder {  
+				color: #555; 
+			}
+			.wpcf7-form-control-wrap{
+				input{
+					padding: 8px 20px; border-radius: 4px;
+				}
+			}
+		}
+		.cf-name, .cf-mail{
+			margin-right: 2%;
+			.rtl &{
+				margin-right: 0; margin-left: 2%;
+			}
+		}
+		.your-message{
+			textarea{
+				border-radius: 4px; min-height: 200px;
+				.rtl &{
+					text-align: right;
+				}
+			}
+			textarea::-webkit-input-placeholder{
+				color: #555;
+			}
+			textarea::-moz-placeholder{
+				color: #555;  
+			}
+			textarea:-ms-input-placeholder{ 
+				color: #555; 
+			}
+		}
+		.wpcf7-submit{
+			padding: 0 30px; border-radius: 4px; background: @color; .transition(all 0.3s); border: none; font-weight: bold; margin-top: 20px;
+			&:hover{
+				background: @body-color; .transition(all 0.3s); border: none;
+			}
+		}
+		.ajax-loader{
+			margin-top: 23px;
+			.rtl &{
+				margin-bottom: 20px;
+			}
+		}
+	}
+	&.style2{
+		.wpcf7 .your-message textarea{
+			min-height: 380px;
+		}
+	}
+}
+.wpcf7{
+	.wp-input {
+		margin: 0 -15px;
+		.wpcf7-form-control-wrap{
+			width:33.333%;
+			float: left;
+			padding: 0 15px;
+			input{
+				width:100%;
+				.border-radius(0);
+			}
+			input::-webkit-input-placeholder {
+		        color: #555;
+		    }
+		    input::-moz-placeholder {  
+		        color: #555;  
+		    }
+		    input:-ms-input-placeholder {  
+		        color: #555; 
+		    }
+			.wpcf7-text{
+				height:40px;
+				border:1px solid @border-color;
+				font-size:13px;
+				color:#555;
+				padding:10px 20px;
+				margin-bottom:20px;
+
+			}
+		}
+	}
+	textarea{
+		padding:10px 20px;
+		height:40px;
+		border:1px solid @border-color;
+		width:100%;
+		min-height:150px;
+		.border-radius(0);
+	}
+	textarea::-webkit-input-placeholder {
+        color: #555;
+    }
+    textarea::-moz-placeholder {  
+        color: #555;  
+    }
+    textarea:-ms-input-placeholder {  
+        color: #555; 
+    }
+	&.your-message{
+		float:none;
+		clear:both;
+	}
+	.wpcf7-submit{
+		margin-top:10px;
+		color:#fff; line-height: 40px;
+		font-size:14px;
+		text-transform:uppercase;
+		border:0;
+		background-color:@body-color;
+		padding:0 30px;
+		.border-radius( 42px);
+		.rtl &{
+			float: right;
+		}
+		&:hover{
+			background-color:@color;
+		}
+	}
+}

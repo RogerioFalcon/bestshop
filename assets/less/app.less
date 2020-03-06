@@ -1,0 +1,289 @@
+// load bootstrap.less included variables.less & mixins.less 
+@import "bootstrap/mixins.less";
+@import "flexbox.less";
+/* ==========================================================================
+ Base
+========================================================================== */
+
+*, html{
+	outline: none !important;
+}
+body{ 
+	background-color: #fff;
+	color: #666;
+	font-size: 14px;
+	line-height: normal; 
+	font-family: "Barlow",Helvetica,Arial,sans-serif;
+
+	.body-wrapper {
+		overflow: hidden;
+		position: relative;
+	}
+	
+	a{
+		color: lighten(@body-color, 14% ); .transition(all 0.3s);
+		&:hover{
+			color: @color; text-decoration: none; .transition(all 0.3s);
+		}
+		&:focus{
+			text-decoration: none;
+		}
+	}
+	
+	h1, h2, h3, h4, h5, h6{
+		margin: 0 0 10px;
+	}
+	
+	input, textarea, button {
+		outline: medium none !important;
+		border: 1px solid @border-color;
+		margin-bottom: 10px;
+		.border-radius(4px);
+		padding: 0px 5px;
+	}
+	img{
+		 .img-responsive();
+		  display: block;
+			max-width: 100%;
+			height: auto;
+	}
+	ul{
+		padding: 0;
+	}
+	
+	ul, ol{
+		margin-left: 15px;
+		.rtl & {
+			margin-left: 0;
+			margin-right: 15px;
+		}
+	}
+	ol{
+		padding-left: 15px;
+	}
+	
+	.container{
+	   padding: 0;
+	}
+	&.boxed-layout{
+		.body-wrapper{
+			width: 1200px;
+			background: #fff;
+			margin: 0 auto;
+			box-shadow:0 0 8px #000;
+		}
+	}
+}
+.clearfix:after{
+	height: 0;
+	clear: both;
+	content: " ";
+	font-size: 0;
+	min-height: 0;
+	display: block;
+	visibility: hidden;
+}
+.float{
+	float: none !important;
+}
+table{
+	margin-bottom: 20px;
+}
+
+/* Images in content post*/
+.thumbnail{
+	max-width: 100%;
+}
+.size-full {
+    width:100%;
+    height:auto;
+    margin:0 0 30px 0;
+}
+.alignleft {
+    float: left;
+    margin:0 15px 30px 0;
+    .rtl &{
+    	float: right;
+    	margin: 0 0 30px 15px;
+    }
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 30px auto;
+	clear: both;
+}
+.alignright {
+    float: right;
+    margin:0 0 30px 15px;
+    .rtl &{
+    	float: left;
+    	margin: 0 15px 30px 0;
+    }
+}
+.alignnone {
+    float: none;
+	clear: both;
+    display:block;
+    margin:0 0 30px 0;
+}
+
+p .size-full {
+    width: auto;
+    height:auto;
+    margin:5px 0 30px 0;
+}
+p .alignleft {
+    float: left;
+    margin:5px 15px 30px 0 ;
+    .rtl &{
+    	float: right;
+    	margin: 5px 0 30px 15px; 
+    }
+}
+p .aligncenter {
+    display: block;
+    margin: 5px auto 30px auto;
+}
+p .alignright {
+    float: right;
+    margin:5px 0 30px 15px;
+	clear: both;
+    .rtl &{
+     	float: left;
+     	margin: 5px 15px 30px 0;
+    }
+}
+p .alignnone {
+    float: none;
+    display:block;
+    margin:5px 0 30px 0;
+}
+figure .size-full{
+	margin: 0;
+}
+
+.video-wrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+ul.menu, .dropdown ul{
+	list-style: none;
+	margin: 0;
+}
+
+.fa:before{
+	font-family: FontAwesome;
+}
+
+.loading{
+	position: relative;
+	z-index: 2;
+	height: 300px;
+	overflow: hidden;
+	&:before{
+		background: url(../assets/img/loading.gif) no-repeat center center #fff;
+		background-size: 32px 32px;
+		content: "";
+		position: absolute;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		z-index: 99;
+		display: block;
+		.rtl & {
+			left: 0 !important;
+			right: 0 !important;
+		}
+	}
+	&.clearfix{
+		overflow: hidden;
+	}
+	&.add_to_cart_button:before{
+		background: url(../assets/img/loadingp.gif) no-repeat center center #fff;
+	}
+}
+
+ul.breadcrumb{
+	margin: 0 0 20px;
+}
+
+input.input-text:focus, select:focus, textarea:focus{
+	background-color:#fafafa;
+}
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+	background-color: transparent;
+}
+
+//map
+.wpb_map_wraper iframe{
+	 pointer-events: none;
+}
+
+.quote-border{
+	.border-radius(3px);
+	background-color: #f4f4f4;
+	padding:20px;
+	margin-bottom: 10px;
+	font-style: italic;
+	border: 1px solid #ddd;
+}
+
+
+/*	
+	===================================================================
+	content
+	===================================================================	
+*/
+@import "app/global_style.less";
+/**
+	Header
+**/
+@import "app/header_default.less";
+@import "app/_menu.less";
+@import "app/_res_menu.less";
+
+/* Content */
+@import "app/_widgets.less";
+@import "app/_contact_us.less";
+@import "app/_about_us.less";
+@import "app/_portfolio.less";
+@import "app/_blog.less";
+@import "app/_blog_detail.less";
+@import "app/404.less";
+@import "app/font-nucleo.less";
+
+@import "app/shortcodes.less";
+@import "app/content.less";
+@import "app/content_default.less";
+@import "app/slickslider.less";
+@import "app/woocommerce.less";
+@import "app/wc_vendor.less";
+@import "app/dokan_vendor.less";
+@import "app/wc_marketplace.less";
+@import "app/product_variation.less";
+@import "app/product_listing.less";
+@import "app/product_detail.less";
+@import "app/product_quick_view.less";
+@import "app/unit_test.less";
+@import "app/update_index1.less";
+@import "app/update_index2.less";
+@import "app/update_index3.less";
+@import "app/update_index4.less";
+@import "app/update_index5.less";
+
+
+
+/* Footer */
+@import "app/_footer.less";
